@@ -1,0 +1,29 @@
+Steps to run our project in Ubuntu11.10
+
+-> Install java in Ubuntu11.10
+
+-> create a new directory in the home folder and name it is java_application using the following command on terminal.
+	mkdir java_application
+
+-> now change directory from root directory to the newly created directory using the following command.
+	cd java_application
+
+-> Now keep the certificate.java file and all the three certificates in the java_application folder present inside the home folder.
+
+-> Now run the project on the terminal using the following command.
+	javac certificate.java
+
+-> the above command will create the .class file. Now type the below command to run the project.
+	java certificate
+
+
+The project will print the follwing things in the sequence
+-> Certificate of Raghu
+-> Public key of Raghu
+-> private key of Raghu
+-> Public key of certification authority
+-> Signature on TA's certificate
+-> Verification of Raghu's certificate
+-> Plain text
+-> Encrypted Plain text
+-> Decrypted Cipher text
